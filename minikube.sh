@@ -1,4 +1,5 @@
 #!/bin/bash
+#Install Docker before installing minikube and restart the server.
 sudo apt update
 sudo apt install -y curl wget apt-transport-https
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
